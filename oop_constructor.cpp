@@ -33,20 +33,25 @@ using namespace std;
 
 class Student{
 public:
+
     string name;
     int roll;
+
     Student(string n,int r){
         name = n;
         roll = r;
     }
     void display(){
+
         cout << "Your name is: " << name << endl;
         cout << "Your roll is: " << roll << endl;
     }
 };
 int main(){
+
     Student s1("Sakil",683100);
 
     s1.display();
+
     return 0;
 }

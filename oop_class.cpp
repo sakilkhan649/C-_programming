@@ -36,8 +36,8 @@ class Student{
     int roll;
 
     void display(){
-        cout << "Your name is " << name << endl;
-        cout << "Your roll is " << roll << endl;
+        cout << "Your name is: " << name << endl;
+        cout << "Your roll is: " << roll << endl;
     }
 };
 
